@@ -1,14 +1,41 @@
+/*GRIDS*/
 .grid_5 {
   display: flex; /* Aktiverer flexbox layout */
   justify-content: space-around; /* Fordeler pladsen mellem og omkring items */
   align-items: center; /* Centrerer items vertikalt */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* fire kolonner */
+  margin-top: 50px;
+  gap: 20px;
+}
+.grid_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  gap: 20px;
 }
 
-.grid_5 > div {
-  flex: 1; /* Giver hvert barn (div) lige meget plads */
+.grid_4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* fire kolonner */
+  margin-top: 50px;
+  gap: 20px;
+}
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  gap: 20px;
+  background-color: #decbb4;
+}
+.grid_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+  gap: 20px;
 }
 
-/*KNAP*/
+/*KNAPPER*/
 .knapsealle {
   background-color: #7c816b; /* Sætter baggrundsfarven til grøn */
   color: white; /* Sætter tekstfarven til hvid */
@@ -19,13 +46,22 @@
   position: absolute; /* Absolut positionering */
   margin-left: 50%;
 }
-
-.grid_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 50px;
-  gap: 20px;
+.knap1,
+.knap2,
+.knap3,
+.knap4 {
+  background-color: #7c816b; /* Sætter baggrundsfarven til grøn */
+  color: white; /* Sætter tekstfarven til hvid */
+  padding: 10px 50px; /* Tilføjer indre afstand */
+  cursor: pointer;
+  border: none;
 }
+.knap {
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .section1 {
   background-color: #f4e0d8;
+  margin-top: 50px;
 }
