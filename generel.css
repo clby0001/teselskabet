@@ -51,7 +51,11 @@ h3 {
   color: #433524;
   font-size: 1rem;
 }
-
+h4 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #433524;
+  font-size: 1rem;
+}
 p {
   font-family: "Josefin Sans", sans-serif;
   color: #433524;
