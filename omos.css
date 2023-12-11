@@ -1,0 +1,20 @@
+.insta {
+  background-color: #e5edda;
+}
+
+.grid_insta {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-content: start;
+}
+
+.grid {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.insta_tekst {
+  margin-left: 40%;
+}
