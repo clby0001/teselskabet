@@ -26,25 +26,31 @@ footer {
 
 /* TEKST START*/
 h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #433524;
   font-size: 2rem;
 }
 
 h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #433524;
   font-size: 1.5rem;
 }
 
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #433524;
+  font-size: 1rem;
+}
+
 p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #433524;
   font-size: 1rem;
 }
 
 a {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #433524;
   font-size: 1rem;
 }
