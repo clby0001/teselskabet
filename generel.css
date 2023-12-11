@@ -17,7 +17,10 @@ body {
 
 main {
   max-width: 1400px;
-  margin: 0 auto;
+}
+
+.margin {
+  margin: 3rem;
 }
 
 footer {
@@ -37,6 +40,12 @@ h2 {
   font-size: 1.5rem;
 }
 
+h1,
+h2 {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 h3 {
   font-family: "Josefin Sans", sans-serif;
   color: #433524;
@@ -47,6 +56,9 @@ p {
   font-family: "Josefin Sans", sans-serif;
   color: #433524;
   font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+  max-width: 70ch;
 }
 
 a {
