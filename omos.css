@@ -1,12 +1,13 @@
 .insta {
   background-color: #e5edda;
-  padding: 3rem;
+  padding: 4rem;
+  padding-bottom: 15rem;
 }
 
 .grid_insta {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 25px;
   align-content: start;
 }
 
@@ -17,5 +18,44 @@
 }
 
 .insta_tekst {
-  margin-left: 40%;
+  margin-left: 37%;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.overskrift {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.tekst_video {
+  margin-left: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.tekst1 {
+  margin-top: 0.8rem;
+  line-height: 3rem;
+}
+
+.tekst2 {
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+
+.menu {
+  font-size: 1rem;
+}
+.video {
+  margin-left: 2rem;
+  margin-right: 3rem;
+}
+
+p {
+  line-height: 2.2rem;
 }
