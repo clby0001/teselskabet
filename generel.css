@@ -16,7 +16,7 @@ body {
 }
 
 main {
-  max-width: 1400px;
+  max-width: auto;
 }
 
 .margin {
@@ -69,6 +69,30 @@ a {
 
 a:hover {
   color: #7c816b;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 6rem;
+  margin: 3rem;
+}
+
+footer {
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sociale_medier_ikoner {
+  display: flex;
+}
+
+.sociale_medier_ikoner img {
+  width: auto;
+  height: 55px;
+  margin-right: -15px;
 }
 
 @media (min-width: 800px) {
