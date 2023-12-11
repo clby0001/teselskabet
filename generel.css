@@ -99,5 +99,9 @@ footer {
   margin-right: -15px;
 }
 
+.adresse {
+  margin-bottom: 0;
+}
+
 @media (min-width: 800px) {
 }
