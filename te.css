@@ -1,0 +1,189 @@
+.tekst_h1,
+.tekst_h2 {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tekst_p1 {
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tekst_p2 {
+  margin-bottom: 4rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+/* --------------------------------- */
+
+.shop_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-content: start;
+}
+
+.shop_kasse {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.shop_kasse img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.kasse_tekst {
+  margin: 10px;
+  background-color: #decbb4;
+  padding: 15px;
+}
+
+.kategorier {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.9rem;
+  text-transform: uppercase;
+}
+
+.kategorier img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.kat_tekst {
+  background-color: #7c816b;
+  color: #fff9ed;
+  padding: 1rem;
+  position: absolute;
+  bottom: 10px;
+  left: 3rem;
+  right: 3rem;
+  margin: 0;
+  display: inline-block;
+}
+
+.te_kategori {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.filtre img {
+  width: 40px;
+}
+
+.bestsellere img {
+  width: 40px;
+}
+
+.sider img {
+  width: 40px;
+}
+
+.produkter {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  justify-content: space-between;
+}
+
+.bestsellere {
+  border: 1px solid #433524;
+  padding: 2px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sorter {
+  display: flex;
+  align-items: center;
+}
+
+.bestsellere img {
+  width: 40px;
+  margin-left: 4rem;
+}
+
+.sorter_tekst {
+  margin-right: 1.2rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container1 {
+  width: 20%;
+  padding: 145px 0;
+}
+
+.container2 {
+  width: 80%;
+  padding: 0 0 0 20px;
+}
+
+.filtre {
+  font-weight: 300;
+}
+
+.filter_tekst {
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+}
+
+.filter_tekst img {
+  margin-left: auto;
+}
+
+.sider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 4;
+}
+
+.side_numre {
+  display: inline;
+  border: 1px solid #433524;
+  padding: 6px 10px;
+}
+
+.pris {
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 6rem;
+  margin: 3rem;
+}
+
+footer {
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sociale_medier_ikoner {
+  display: flex;
+}
+
+.sociale_medier_ikoner img {
+  width: auto;
+  height: 55px;
+  margin-right: -15px;
+}
+
