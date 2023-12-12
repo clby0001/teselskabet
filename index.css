@@ -11,8 +11,8 @@
 .grid_2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 50px;
-  gap: 20px;
+  gap: 30px;
+  margin-top: 0;
 }
 
 .grid_4 {
@@ -35,23 +35,38 @@
   gap: 20px;
 }
 
+.kundekonto {
+  background-color: #e5edda;
+  margin: 0;
+  padding: 10px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /*KNAPPER*/
 .knapsealle {
-  background-color: #7c816b; /* Sætter baggrundsfarven til grøn */
-  color: white; /* Sætter tekstfarven til hvid */
-  padding: 10px 50px; /* Tilføjer indre afstand */
+  background-color: #7c816b;
+  color: #fff9ed;
+  padding: 1rem 3rem;
   border: none;
-  font-size: 16px; /* Sætter skriftstørrelsen */
+  font-size: 1rem;
   cursor: pointer; /* Ændrer cursoren til en pegefinger, når den er over knappen */
-  position: absolute; /* Absolut positionering */
-  margin-left: 50%;
+  text-transform: uppercase;
 }
+
+.knap_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .knap1,
 .knap2,
 .knap3,
 .knap4 {
-  background-color: #7c816b; /* Sætter baggrundsfarven til grøn */
-  color: white; /* Sætter tekstfarven til hvid */
+  background-color: #7c816b;
+  color: #fff9ed;
   padding: 10px 50px; /* Tilføjer indre afstand */
   cursor: pointer;
   border: none;
@@ -64,6 +79,7 @@
 .section1 {
   background-color: #f4e0d8;
   margin-top: 50px;
+  padding-bottom: 5px;
 }
 
 /* ----- Kode til Bestsellere grid og "kasser" */
@@ -126,4 +142,40 @@
   overflow: hidden;
 }
 
-/* ----- Kode til kategorier -----*/
+/* ----- Kode til kategorier slut -----*/
+
+.logo1 {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+.video_container {
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.video-container video {
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.info img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}

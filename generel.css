@@ -102,5 +102,23 @@ footer {
   margin-bottom: 0;
 }
 
+.tekst_h1,
+.tekst_h2 {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tekst_p1 {
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tekst_p2 {
+  margin-bottom: 4rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
 @media (min-width: 800px) {
 }
