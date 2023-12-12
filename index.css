@@ -65,3 +65,65 @@
   background-color: #f4e0d8;
   margin-top: 50px;
 }
+
+/* ----- Kode til Bestsellere grid og "kasser" */
+
+.shop_kasse {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.shop_kasse img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.kasse_tekst {
+  margin: 10px;
+  padding: 15px;
+}
+
+.pris {
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+/* ----- Kode til Bestsellere grid og "kasser" slut */
+
+/* ----- Kode til kategorier -----*/
+
+.kategorier {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.9rem;
+  text-transform: uppercase;
+}
+
+.kategorier img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.kat_tekst {
+  background-color: #7c816b;
+  color: #fff9ed;
+  padding: 1rem;
+  position: absolute;
+  bottom: 10px;
+  left: 3rem;
+  right: 3rem;
+  margin: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.te_kategori {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* ----- Kode til kategorier -----*/
