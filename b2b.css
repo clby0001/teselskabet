@@ -5,8 +5,15 @@
 
 .overordnet_div {
   background-color: #e5edda;
-  line-height: 1.7;
-  padding: 20px;
+  padding: 2%;
+  line-height: 1.5;
+}
+
+@media (min-width: 800px) {
+  .overordnet_div {
+    padding: 20px;
+    line-height: 1.7;
+  }
 }
 
 .text_1 {
@@ -19,12 +26,19 @@
 
 .grid_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 10%;
-  gap: 20px;
+  grid-template-columns: 1fr;
+  gap: 10px;
   background-color: #e5edda;
-  margin: 3rem;
-  line-height: 1.7;
+  margin: 2%;
+  line-height: 1.5;
+}
+
+@media (min-width: 800px) {
+  .grid_1 {
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+    line-height: 1.7;
+  }
 }
 
 .grid_1 label {
@@ -35,10 +49,17 @@
 
 .moedelokale_grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr;
   gap: 10px;
   align-content: start;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+  .moedelokale_grid {
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 10%;
+  }
 }
 
 .moedelokale_kasse {
