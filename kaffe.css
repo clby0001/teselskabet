@@ -1,0 +1,46 @@
+.shop_grid {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-content: start;
+}
+
+.shop_kasse {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.kasse_tekst {
+  margin: 10px;
+  background-color: #decbb4;
+  padding: 15px;
+}
+
+.kaffe_tekst {
+  margin-top: 4rem;
+  background-color: #f4e0d8;
+  padding-bottom: 3rem;
+  padding: 4rem;
+}
+
+p {
+  max-width: 75ch;
+}
+
+.icon {
+  width: 17%;
+  height: 17%;
+  margin-top: -4.5rem;
+  margin-right: 10%;
+}
+
+.tekst1 {
+  display: flex;
+}
+
+.pris {
+  font-weight: 300;
+  margin-top: 5px;
+}
