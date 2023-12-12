@@ -23,6 +23,12 @@
   line-height: 1.7;
 }
 
+.grid_1 label {
+  font-family: "Josefin Sans", sans-serif;
+  color: #433524;
+  font-size: 1rem;
+}
+
 .moedelokale_grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -46,6 +52,11 @@
   margin: 10px;
   background-color: #decbb4;
   padding: 15px;
+}
+
+.pris {
+  font-weight: 300;
+  margin-top: 5px;
 }
 
 /* .shop_te {
