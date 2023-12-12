@@ -55,7 +55,7 @@
   margin-bottom: 5%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .moedelokale_grid {
     grid-template-columns: repeat(5, 1fr);
     margin-bottom: 10%;
@@ -107,4 +107,16 @@
   border: none;
   font-size: 16px;
   cursor: pointer;
+}
+
+#fornavn,
+#efternavn,
+#email,
+#besked {
+  width: 300px;
+}
+
+label {
+  display: block; /* Sørger for, at hver label har sin egen linje */
+  margin-bottom: 5px; /* Tilføjer lidt mellemrum mellem hver label og input */
 }
