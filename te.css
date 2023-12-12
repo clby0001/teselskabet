@@ -20,7 +20,7 @@
 
 .shop_grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   align-content: start;
 }
@@ -45,7 +45,7 @@
 
 .kategorier {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.9rem;
   text-transform: uppercase;
 }
@@ -115,24 +115,9 @@
   margin-right: 1.2rem;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.container1 {
-  width: 20%;
-  padding: 145px 0;
-}
-
-.container2 {
-  width: 80%;
-  padding: 0 0 0 20px;
-}
-
 .filtre {
   font-weight: 300;
+  margin-top: 50px;
 }
 
 .filter_tekst {
@@ -162,4 +147,82 @@
 .pris {
   font-weight: 300;
   margin-top: 5px;
+}
+
+@media (min-width: 800px) {
+  .shop_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-content: start;
+  }
+
+  .shop_kasse {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .shop_kasse img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .kasse_tekst {
+    margin: 10px;
+    background-color: #decbb4;
+    padding: 15px;
+  }
+
+  .kategorier {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.9rem;
+    text-transform: uppercase;
+  }
+
+  .kategorier img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .kat_tekst {
+    background-color: #7c816b;
+    color: #fff9ed;
+    padding: 1rem;
+    position: absolute;
+    bottom: 10px;
+    left: 3rem;
+    right: 3rem;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .te_kategori {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .container1 {
+    width: 20%;
+    padding: 145px 0;
+  }
+
+  .container2 {
+    width: 80%;
+    padding: 0 0 0 20px;
+  }
+
+  .filtre {
+    margin-top: 0;
+  }
 }
