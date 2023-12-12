@@ -18,13 +18,12 @@
 }
 
 .insta_tekst {
-  margin-left: 37%;
+  margin-left: 40%;
   margin-bottom: 1rem;
 }
 
 a {
   text-decoration: none;
-  font-size: 1.5rem;
 }
 .overskrift {
   margin-top: 5rem;
@@ -39,7 +38,7 @@ a {
 }
 
 .tekst1 {
-  margin-top: 0.8rem;
+  margin-top: 1.8rem;
   line-height: 3rem;
 }
 
