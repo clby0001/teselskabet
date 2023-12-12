@@ -44,3 +44,18 @@ p {
   font-weight: 300;
   margin-top: 5px;
 }
+.sider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 4;
+  margin-top: 1rem;
+}
+.side_numre {
+  display: inline;
+  border: 1px solid #433524;
+  padding: 6px 10px;
+}
+.sider img {
+  width: 40px;
+}
