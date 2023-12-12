@@ -103,10 +103,11 @@
 .send_knap {
   background-color: #7c816b;
   color: white;
-  padding: 10px 50px;
+  padding: 10px 30px;
   border: none;
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 #fornavn,
@@ -119,4 +120,11 @@
 label {
   display: block; /* Sørger for, at hver label har sin egen linje */
   margin-bottom: 5px; /* Tilføjer lidt mellemrum mellem hver label og input */
+}
+
+.kontaktform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
