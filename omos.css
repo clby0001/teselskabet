@@ -58,3 +58,18 @@ a {
 p {
   line-height: 2.2rem;
 }
+
+@media (max-width: 800px) {
+  .grid_insta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    align-content: start;
+  }
+
+  .grid {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
