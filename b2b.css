@@ -5,22 +5,40 @@
 
 .overordnet_div {
   background-color: #e5edda;
-  line-height: 1.7;
-  padding: 20px;
+  padding: 2%;
+  line-height: 1.5;
+}
+
+@media (min-width: 800px) {
+  .overordnet_div {
+    padding: 20px;
+    line-height: 1.7;
+  }
 }
 
 .text_1 {
   margin: 3rem;
 }
 
+.p_text {
+  font-weight: 300;
+}
+
 .grid_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 10%;
-  gap: 20px;
+  grid-template-columns: 1fr;
+  gap: 10px;
   background-color: #e5edda;
-  margin: 3rem;
-  line-height: 1.7;
+  margin: 2%;
+  line-height: 1.5;
+}
+
+@media (min-width: 800px) {
+  .grid_1 {
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+    line-height: 1.7;
+  }
 }
 
 .grid_1 label {
@@ -31,9 +49,17 @@
 
 .moedelokale_grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr;
   gap: 10px;
   align-content: start;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 800px) {
+  .moedelokale_grid {
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 10%;
+  }
 }
 
 .moedelokale_kasse {
@@ -59,12 +85,46 @@
   margin-top: 5px;
 }
 
-/* .shop_te {
+.shopte_container {
+  display: grid;
+  place-items: center;
+  height: 10vh;
+}
+
+.shop_te {
   background-color: #7c816b;
   color: white;
   padding: 10px 50px;
   border: none;
   font-size: 16px;
   cursor: pointer;
-  position: absolute;
-} */
+}
+
+.send_knap {
+  background-color: #7c816b;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#fornavn,
+#efternavn,
+#email,
+#besked {
+  width: 300px;
+}
+
+label {
+  display: block; /* Sørger for, at hver label har sin egen linje */
+  margin-bottom: 5px; /* Tilføjer lidt mellemrum mellem hver label og input */
+}
+
+.kontaktform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
