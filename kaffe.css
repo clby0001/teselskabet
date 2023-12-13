@@ -1,5 +1,5 @@
 .shop_grid {
-  margin-top: 5rem;
+  margin-top: 10rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -27,14 +27,15 @@
 }
 
 p {
-  max-width: 75ch;
+  max-width: 72ch;
+  margin-top: 1.5rem;
 }
 
 .icon {
-  width: 17%;
-  height: 17%;
-  margin-top: -4.5rem;
+  width: 19%;
+  height: 19%;
   margin-right: 10%;
+  margin: 0% auto;
 }
 
 .tekst1 {

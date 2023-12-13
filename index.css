@@ -180,3 +180,7 @@ a {
   flex-direction: column;
   padding-top: 30px;
 }
+
+.index_container {
+  margin-bottom: 5rem;
+}
