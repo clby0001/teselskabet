@@ -49,6 +49,10 @@ a {
   margin: 0 auto;
 }
 
+.tekst_p1 {
+  margin-bottom: 1.5rem;
+}
+
 @media (max-width: 800px) {
   .grid_insta {
     display: grid;
