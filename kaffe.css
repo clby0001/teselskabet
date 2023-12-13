@@ -5,6 +5,7 @@
   gap: 10px;
   align-content: start;
   margin-bottom: 7rem;
+  margin: 3rem;
 }
 
 .shop_kasse {
@@ -61,4 +62,35 @@ p {
 }
 .sider img {
   width: 40px;
+}
+.produkter {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  font-weight: 300;
+  justify-content: space-between;
+}
+.bestsellere {
+  border: 1px solid #433524;
+  padding: 2px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sorter {
+  display: flex;
+  align-items: center;
+}
+
+.sorter1 {
+  margin-left: 260%;
+}
+.bestsellere img {
+  width: 40px;
+  margin-left: 4rem;
+}
+
+.sorter_tekst {
+  margin-right: 1.2rem;
 }
