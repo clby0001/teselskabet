@@ -160,6 +160,10 @@
   margin-bottom: 2rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (min-width: 800px) {
   .shop_grid {
     display: grid;
