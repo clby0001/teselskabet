@@ -1,0 +1,60 @@
+.kurv_knap {
+  background-color: #7c816b;
+  color: #fff9ed;
+  padding: 1rem 3rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.knap_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.shop_te img {
+  width: 380px;
+  margin: 0 auto;
+}
+
+.pris_shop {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.shop_h2 {
+  margin-bottom: 16px;
+}
+
+.synes_om {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.andre {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+@media (min-width: 800px) {
+  .shop_te_grid {
+    align-self: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .andre {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
