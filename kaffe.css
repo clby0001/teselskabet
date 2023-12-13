@@ -4,6 +4,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   align-content: start;
+  margin-bottom: 7rem;
 }
 
 .shop_kasse {
@@ -50,6 +51,7 @@ p {
   justify-content: center;
   grid-column: span 4;
   margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 .side_numre {
   display: inline;
