@@ -157,6 +157,10 @@
   max-width: 100%;
   overflow: hidden;
   margin: 0 auto;
+  height: 630px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .video-container video {
@@ -185,6 +189,6 @@ a {
   margin-bottom: 5rem;
 }
 
-.tekop {
-
+.tekop img {
+  width: 100%;
 }
