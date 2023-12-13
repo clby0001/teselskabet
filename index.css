@@ -75,6 +75,9 @@
   cursor: pointer;
   text-decoration: none;
 }
+.knap ul {
+  list-style-type: none;
+}
 
 .section1 {
   background-color: #f4e0d8;
@@ -176,4 +179,12 @@ a {
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+}
+
+.index_container {
+  margin-bottom: 5rem;
+}
+
+.tekop {
+
 }
