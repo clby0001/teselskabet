@@ -9,19 +9,15 @@
   line-height: 1.5;
 }
 
+.b2b_container {
+  margin-top: 5rem;
+}
+
 @media (min-width: 800px) {
   .overordnet_div {
     padding: 20px;
     line-height: 1.7;
   }
-}
-
-.text_1 {
-  margin: 3rem;
-}
-
-.p_text {
-  font-weight: 300;
 }
 
 .grid_1 {
@@ -49,7 +45,7 @@
 
 .moedelokale_grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
   align-content: start;
   margin-bottom: 5%;
@@ -57,8 +53,11 @@
 
 @media (min-width: 800px) {
   .moedelokale_grid {
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-bottom: 10%;
+    gap: 10px;
+    align-content: start;
   }
 }
 
@@ -95,28 +94,35 @@
 
 .shop_te {
   background-color: #7c816b;
-  color: white;
-  padding: 10px 50px;
+  color: #fff9ed;
+  padding: 1rem 3rem;
   border: none;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .send_knap {
   background-color: #7c816b;
-  color: white;
-  padding: 10px 30px;
+  color: #fff9ed;
+  padding: 1rem 3rem;
   border: none;
-  font-size: 13px;
+  font-size: 1rem;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
 }
 
 #fornavn,
 #efternavn,
-#email,
+#email {
+  width: 300px;
+  height: 25px;
+}
+
 #besked {
   width: 300px;
+  height: 60px;
 }
 
 label {
@@ -129,4 +135,8 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.form-felt {
+  margin-bottom: 10px;
 }
