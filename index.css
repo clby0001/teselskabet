@@ -75,6 +75,9 @@
   cursor: pointer;
   text-decoration: none;
 }
+.knap ul {
+  list-style-type: none;
+}
 
 .section1 {
   background-color: #f4e0d8;
