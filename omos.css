@@ -27,14 +27,6 @@ a {
 }
 .overskrift {
   margin-top: 5rem;
-  margin-left: 3rem;
-}
-
-.tekst_video {
-  margin-left: 3rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 2rem;
 }
 
 .tekst1 {
@@ -42,17 +34,19 @@ a {
   line-height: 3rem;
 }
 
-.tekst2 {
-  margin-left: 3rem;
-  margin-right: 2rem;
-}
-
 .menu {
   font-size: 1rem;
 }
 .video {
-  margin-left: 2rem;
-  margin-right: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+.te_logo {
+  width: 700px;
+  margin: 0 auto;
 }
 
 @media (max-width: 800px) {
@@ -67,5 +61,19 @@ a {
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekst_video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    gap: 20px;
   }
 }
