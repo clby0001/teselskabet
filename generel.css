@@ -78,7 +78,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  gap: 6rem;
+  gap: 2rem;
   margin: 3rem;
 }
 
@@ -121,4 +121,11 @@ footer {
 }
 
 @media (min-width: 800px) {
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 6rem;
+    margin: 3rem;
+  }
 }
