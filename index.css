@@ -4,7 +4,7 @@
   justify-content: space-around; /* Fordeler pladsen mellem og omkring items */
   align-items: center; /* Centrerer items vertikalt */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* fire kolonner */
+  grid-template-columns: 1fr 1fr;
   margin-top: 50px;
   gap: 20px;
 }
@@ -22,7 +22,7 @@
 }
 .grid_1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin-top: 50px;
   gap: 20px;
   background-color: #decbb4;
@@ -114,7 +114,7 @@
 
 .kategorier {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.9rem;
   text-transform: uppercase;
 }
@@ -190,4 +190,31 @@ a {
 
 .tekop img {
   width: 100%;
+}
+
+@media (min-width: 800px) {
+  .grid_5 {
+    display: flex; /* Aktiverer flexbox layout */
+    justify-content: space-around; /* Fordeler pladsen mellem og omkring items */
+    align-items: center; /* Centrerer items vertikalt */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  .kategorier {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.9rem;
+    text-transform: uppercase;
+  }
+
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    gap: 20px;
+    background-color: #decbb4;
+  }
 }
