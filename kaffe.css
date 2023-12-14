@@ -4,20 +4,26 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   align-content: start;
-  margin-bottom: 7rem;
-  margin: 3rem;
 }
 
 .shop_kasse {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  width: 100%;
 }
 
 .kasse_tekst {
   margin: 10px;
   background-color: #decbb4;
   padding: 15px;
+}
+
+.shop_kasse img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .kaffe_tekst {
@@ -29,7 +35,6 @@
 
 p {
   max-width: 72ch;
-  margin-top: 1.5rem;
 }
 
 .icon {
@@ -47,6 +52,7 @@ p {
   font-weight: 300;
   margin-top: 5px;
 }
+
 .sider {
   display: flex;
   align-items: center;
@@ -55,14 +61,17 @@ p {
   margin-top: 1rem;
   margin-bottom: 3rem;
 }
+
 .side_numre {
   display: inline;
   border: 1px solid #433524;
   padding: 6px 10px;
 }
+
 .sider img {
   width: 40px;
 }
+
 .produkter {
   display: flex;
   margin-top: 4rem;
@@ -71,6 +80,7 @@ p {
   font-weight: 300;
   justify-content: space-between;
 }
+
 .bestsellere {
   border: 1px solid #433524;
   padding: 2px 10px;
@@ -93,4 +103,8 @@ p {
 
 .sorter_tekst {
   margin-right: 1.2rem;
+}
+
+a {
+  text-decoration: none;
 }
